@@ -1,8 +1,6 @@
 # echosoft.uk
 
-https://echosoft.uk
-
-Echosoft Consultancy company site
+Echosoft Consultancy company site - https://echosoft.uk
 built using vue.
 hosted by netlify
 
