@@ -51,8 +51,9 @@ export default {
 <style lang="scss">
 
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 html, body {
-  font-family: 'Poiret One','Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
+  font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
 }
 p {
   color: #28364f;
@@ -74,5 +75,7 @@ p {
   background-color: white;
   padding: 15px;
   margin-bottom: 20px;
+  border: 0px;
+
 }
 </style>

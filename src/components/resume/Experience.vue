@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-left">Experience</h1>
+    <h2 class="text-left">Experience</h2>
     <div class="card">
       <h3 class="card-title">Senior Software Engineer, Forgerock</h3>
       <div class="card-body">

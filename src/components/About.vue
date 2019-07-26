@@ -2,7 +2,7 @@
   <b-container class="about">
     <b-row class="centering">
       <b-col>
-         <h2 class="text-center">About Me</h2>
+         <h1 class="text-center">About Me</h1>
       </b-col>
     </b-row>
     <b-row  align-h="center">
@@ -27,6 +27,10 @@ export default {
 <style type="scss" scoped>
 h2 {
   font-weight: 700;
+}
+
+p {
+  font-size: 1.3rem;
 }
 
 .centering {

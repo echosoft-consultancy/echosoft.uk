@@ -1,12 +1,12 @@
 <template>
   <b-container class="text-left">
-    <h1 class="text-left">Contact</h1>
+    <div class="text-center">
+      <img class="profile-pic" src="../../assets/images/bio.jpg" />
+      <h2>Ben Jefferies</h2>
+      <h5>DevOps Engineer</h5>
     <div class="card">
       <div>
         <a href="mailto:>benjefferies@echosoft.uk">benjefferies@echosoft.uk</a>
-      </div>
-      <div>
-        <a href="tel:>+447850445146">+447850445146</a>
       </div>
       <div>
         <a href="https://github.com/benjefferies">github.com/benjefferies</a>
@@ -14,6 +14,7 @@
       <div>
         <a href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</a>
       </div>
+    </div>
     </div>
   </b-container>
 </template>
@@ -43,5 +44,14 @@ a:hover {
 /* selected link */
 a:active {
   color: blue;
+}
+.profile-pic {
+  height: 80%;
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 50%;
+}
+.card {
+  background-color: #00000000;
 }
 </style>

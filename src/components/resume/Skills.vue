@@ -1,8 +1,7 @@
 <template>
   <b-container>
-    <h1>Skills</h1>
     <div class="card" v-bind:key='name' v-for="(skill, name) in skills">
-    <h3 class="card-title">{{name}}</h3>
+    <h4 class="card-title text-center">{{name}}</h4>
     <b-row class="card-body">
       <b-col cols="12" v-bind:key='item.name' v-for="item in skill">
         <p>{{item.name}}</p>
@@ -185,8 +184,18 @@ export default {
 
 <!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
+.card {
+  background-color: #00000000;
+  padding: 0px;
+}
+
+.card-body {
+  padding: 0px;
+}
 
 p {
   font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 0px;
 }
 </style>

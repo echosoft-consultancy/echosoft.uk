@@ -29,6 +29,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poiret One','Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
+}
 .logo {
   font-size: 4rem;
   opacity: 0.6;
