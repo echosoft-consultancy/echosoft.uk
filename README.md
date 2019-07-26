@@ -1,6 +1,10 @@
 # echosoft.uk
 
-> Echosoft Consultancy company site
+https://echosoft.uk
+
+Echosoft Consultancy company site
+built using vue.
+hosted by netlify
 
 ## Build Setup
 
