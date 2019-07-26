@@ -1,22 +1,25 @@
 <template>
   <b-container>
-    <b-row v-bind:key='skill.name' v-for='skill in skills[id]'>
-      <b-col>
-        <p>{{skill.name}}</p>
-        <b-progress :value='skill.percentage' :max='100'></b-progress>
+    <h1>Skills</h1>
+    <div class="card" v-bind:key='name' v-for="(skill, name) in skills">
+    <h3 class="card-title">{{name}}</h3>
+    <b-row class="card-body">
+      <b-col cols="12" v-bind:key='item.name' v-for="item in skill">
+        <p>{{item.name}}</p>
+        <b-progress :value='item.percentage' :max='100'></b-progress>
       </b-col>
     </b-row>
+    </div>
   </b-container>
 </template>
 
 <script>
 export default {
-  props: {'id': {'default': 'java'}},
   data () {
     return {
       skills:
         {
-          'java': [
+          'Java': [
             {
               name: 'Java 8',
               percentage: 95
@@ -42,7 +45,7 @@ export default {
               percentage: 95
             }
           ],
-          'python': [
+          'Python': [
             {
               name: 'Python 3',
               percentage: 90
@@ -68,7 +71,7 @@ export default {
               percentage: 90
             }
           ],
-          'web': [
+          'Web': [
             {
               name: 'React',
               percentage: 80
@@ -90,7 +93,7 @@ export default {
               percentage: 95
             }
           ],
-          'database': [
+          'Database': [
             {
               name: 'Postgres',
               percentage: 90
@@ -108,7 +111,7 @@ export default {
               percentage: 85
             }
           ],
-          'devops': [
+          'Devops': [
             {
               name: 'Kubernetes',
               percentage: 90
@@ -138,7 +141,7 @@ export default {
               percentage: 85
             }
           ],
-          'cloud': [
+          'Cloud': [
             {
               name: 'AWS',
               percentage: 90
@@ -152,7 +155,7 @@ export default {
               percentage: 75
             }
           ],
-          'bigdata': [
+          'Big Data': [
             {
               name: 'Hadoop',
               percentage: 85
@@ -184,6 +187,6 @@ export default {
 <style scoped>
 
 p {
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
 }
 </style>

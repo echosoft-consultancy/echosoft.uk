@@ -16,7 +16,7 @@ export default {
   name: 'NavBar',
   methods: {
     scrollDown: () => {
-      fullpage_api.moveSectionDown()
+      console.log('test')
     }
   }
 }

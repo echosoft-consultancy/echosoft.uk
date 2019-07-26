@@ -9,8 +9,6 @@ import 'fullpage.js/vendors/scrolloverflow' // Optional. When using scrollOverfl
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/custom.scss'
-import Skills from './components/Skills.vue'
-import SkillsInfo from './components/SkillsInfo.vue'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
@@ -18,27 +16,8 @@ Vue.use(VueFullPage)
 
 Vue.config.productionTip = false
 
-const router = new VueRouter({
-  mode: 'hash',
-  routes: [
-    {
-      path: '/',
-      component: Skills,
-      children: [
-        {
-          path: '/about/:id?',
-          component: SkillsInfo,
-          props: true,
-          alias: '/home/'
-        }
-      ]
-    }
-  ]
-})
-
 /* eslint-disable no-new */
 new Vue({
-  router,
   el: '#app',
   render: h => h(App),
   template: '<App/>'

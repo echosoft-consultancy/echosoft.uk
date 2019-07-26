@@ -7,6 +7,9 @@
       <div class="section" v-bind:style="bgc">
         <about />
       </div>
+      <div class="section" v-bind:style="bgc">
+        <resume />
+      </div>
     </full-page>
     <div id="footer">Footer</div>
   </div>
@@ -16,17 +19,19 @@
 
 import Home from './components/Home.vue'
 import About from './components/About.vue'
+import Resume from './components/Resume.vue'
 
 export default {
   name: 'Echosoft',
   components: {
     Home,
-    About
+    About,
+    Resume
   },
   data: function () {
     return {
       bgc: {
-        'background-color': '#ECF1F2'
+        'background-color': '#89AAB5'
       },
       bgi: {
         'background-image': 'url(' + require('./assets/images/galaxy.jpg') + ')',
@@ -35,8 +40,8 @@ export default {
       },
       options: {
         controlArrows: true,
-        scrollBar: true,
-        anchors: ['/home/', '/about/']
+        anchors: ['/home', '/about', '/resume'],
+        scrollOverflow: true
       }
     }
   }
@@ -63,5 +68,11 @@ p {
   text-align:center;
   color: #f2f2f2;
   padding: 20px 0 0 0;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin-bottom: 20px;
 }
 </style>
