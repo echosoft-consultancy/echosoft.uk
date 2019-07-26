@@ -194,7 +194,7 @@ export default {
 }
 
 p {
-  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
   font-size: 0.8rem;
   margin-bottom: 0px;
 }

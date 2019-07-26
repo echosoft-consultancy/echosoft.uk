@@ -53,7 +53,7 @@ export default {
 @import url('https://fonts.googleapis.com/css?family=Poiret+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap');
 html, body {
-  font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
+  font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
 }
 p {
   color: #28364f;

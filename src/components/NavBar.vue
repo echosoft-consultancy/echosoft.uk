@@ -29,7 +29,7 @@ export default {
   border-color: #e7e7e7;
   border-style: solid;
   border-width: 0 0 1px;
-  font-family: 'Poiret One','Helvetica Neue', Helvetica, Arial, sans-serif, cursive;
+  font-family: 'Poiret One','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
 }
 .brand {
   font-weight: 700;
