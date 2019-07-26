@@ -9,10 +9,14 @@ import 'fullpage.js/vendors/scrolloverflow' // Optional. When using scrollOverfl
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/css/custom.scss'
+import VueAnalytics from 'vue-analytics'
 
 Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.use(VueFullPage)
+Vue.use(VueAnalytics, {
+  id: 'UA-144541124-1'
+})
 
 Vue.config.productionTip = false
 
