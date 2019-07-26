@@ -1,7 +1,9 @@
 # echosoft.uk
 
 Echosoft Consultancy company site - https://echosoft.uk
+
 built using vue.
+
 hosted by netlify
 
 ## Build Setup
