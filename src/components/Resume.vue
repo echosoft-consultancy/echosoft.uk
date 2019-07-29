@@ -6,6 +6,7 @@
           <skills />
       </b-col>
       <b-col cols="8" class="centering">
+        <about />
         <experience />
       </b-col>
     </b-row>
@@ -16,12 +17,14 @@
 import Contact from './resume/Contact'
 import Experience from './resume/Experience'
 import Skills from './resume/Skills'
+import About from './About'
 export default {
   name: 'Resume',
   components: {
     Contact,
     Experience,
-    Skills
+    Skills,
+    About
   }
 }
 </script>

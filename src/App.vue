@@ -5,9 +5,6 @@
         <home />
       </div>
       <div class="section" v-bind:style="bgc">
-        <about />
-      </div>
-      <div class="section" v-bind:style="bgc">
         <resume />
       </div>
     </full-page>
