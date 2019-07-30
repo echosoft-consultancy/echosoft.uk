@@ -15,7 +15,10 @@ Vue.use(VueRouter)
 Vue.use(BootstrapVue)
 Vue.use(VueFullPage)
 Vue.use(VueAnalytics, {
-  id: 'UA-144541124-1'
+  id: 'UA-144541124-1',
+  autoTracking: {
+    screenview: true
+  }
 })
 
 Vue.config.productionTip = false
