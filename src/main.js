@@ -17,7 +17,8 @@ Vue.use(VueFullPage)
 Vue.use(VueAnalytics, {
   id: 'UA-144541124-1',
   autoTracking: {
-    screenview: true
+    screenview: true,
+    untracked: false
   }
 })
 
