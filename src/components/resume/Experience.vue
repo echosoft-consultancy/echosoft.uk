@@ -5,7 +5,7 @@
       <h3 class="card-title">Senior Software Engineer, Forgerock</h3>
       <div class="card-body">
       <h5>Bristol — September 2018 - current</h5>
-      <p>Forgerock develops the reference sandbox implementation for Open Banking at https://directory.ob.forgerock.financial. Forgerock as an OIDC expert leverages it’s own OIDC stack to implement FAPI standard APIs. This evolved into building a SaaS offering for banks to hit the PSD2 deadlines. We leveraged CI/CD best practices along with kubernetes as a platform to deploy microservices. We support the community that uses the sandbox via the official open banking slack channel.</p>
+      <p>Forgerock develops the reference sandbox implementation for Open Banking at https://directory.ob.forgerock.financial. Forgerock as an OIDC expert leverages it’s own OIDC stack to implement FAPI standard APIs. This evolved into building a SaaS offering for banks to hit the PSD2 deadlines https://www.forgerock.com/open-banking-sandbox . We leveraged CI/CD best practices along with Kubernetes as a platform to deploy microservices. We support the community that uses the sandbox via the official open banking slack channel.</p>
       <ul>
         <li>Java, Docker, Typescript</li>
         <li>Spring Boot, Angular</li>
