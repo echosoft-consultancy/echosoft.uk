@@ -20,7 +20,7 @@ export default {
         {
           'Java': [
             {
-              name: 'Java 8',
+              name: 'Java',
               percentage: 95
             },
             {
@@ -46,7 +46,7 @@ export default {
           ],
           'Python': [
             {
-              name: 'Python 3',
+              name: 'Python',
               percentage: 90
             },
             {
