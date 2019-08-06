@@ -1,6 +1,6 @@
 <template>
   <div>
-    <full-page :options="options" ref="fullpage">
+    <full-page id="fullpage" :options="options" ref="fullpage">
       <div class="section" v-bind:style="bgi">
         <home />
       </div>
@@ -38,7 +38,8 @@ export default {
       options: {
         controlArrows: true,
         anchors: ['/home', '/about', '/resume'],
-        scrollOverflow: true
+        scrollOverflow: true,
+        afterLoad: (origin, destination, direction) => this.$ga.page(destination.anchor)
       }
     }
   }
