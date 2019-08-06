@@ -7,7 +7,6 @@
       <h5>Bristol — September 2018 - current</h5>
       <p>Forgerock develops the reference sandbox implementation for Open Banking at https://directory.ob.forgerock.financial. Forgerock as an OIDC expert leverages it’s own OIDC stack to implement FAPI standard APIs. This evolved into building a SaaS offering for banks to hit the PSD2 deadlines https://www.forgerock.com/open-banking-sandbox . We leveraged CI/CD best practices along with Kubernetes as a platform to deploy microservices. We support the community that uses the sandbox via the official open banking slack channel.</p>
       <ul>
-      
         <li>Java, Kotlin, Spring</li>
         <li>Angular, Typescript</li>
         <li>Codefresh, Travis, Github, Postman</li>
@@ -15,7 +14,6 @@
         <li>Docker, Kubernetes, GCP</li>
         <li>OAuth2, OIDC, JOSE, FAPI, Open Banking UK</li>
         <li>ForgeRock stack</li>
-
       </ul>
     </div>
     <div>
