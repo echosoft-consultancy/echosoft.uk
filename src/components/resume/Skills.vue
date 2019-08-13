@@ -184,9 +184,19 @@ export default {
 
 <!-- Add 'scoped' attribute to limit CSS to this component only -->
 <style scoped>
+@media screen and (max-width: 767px) {
+  h4 {
+      font-size: 1.4rem;
+  }
+
+  p {
+    font-size: 0.8rem;
+  }
+}
 .card {
   background-color: #00000000;
   padding: 0px;
+  padding-top: 20px;
 }
 
 .card-body {
@@ -195,7 +205,6 @@ export default {
 
 p {
   font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
-  font-size: 0.8rem;
   margin-bottom: 0px;
 }
 </style>
