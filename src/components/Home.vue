@@ -2,13 +2,9 @@
   <div>
     <nav-bar />
     <b-container>
-      <b-row class="text-center" v-bind:style="{ marginTop: '55vh' }" align-h="center">
-        <b-col cols="6">
+      <b-row class="text-center" v-bind:style="{ marginTop: '55vh' }">
+        <b-col>
           <h1 class="logo"><a href="mailto:website@echosoft.uk">echosoft</a></h1>
-        </b-col>
-      </b-row>
-      <b-row class="text-center" align-h="center">
-        <b-col cols="6">
           <h5 class="slogan"><strong>Manufacturing software that is out of this world.</strong></h5>
         </b-col>
       </b-row>
