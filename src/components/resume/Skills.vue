@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <div>
     <div class="card" v-bind:key='name' v-for="(skill, name) in skills">
     <h4 class="card-title text-center">{{name}}</h4>
     <b-row class="card-body">
@@ -9,7 +9,7 @@
       </b-col>
     </b-row>
     </div>
-  </b-container>
+  </div>
 </template>
 
 <script>
@@ -186,17 +186,16 @@ export default {
 <style scoped>
 @media screen and (max-width: 767px) {
   h4 {
-      font-size: 1.1rem;
+      font-size: 1.4rem;
   }
-
-  p {
-    font-size: 0.8rem;
+  .card {
+    padding: 0px;
   }
 }
+
 .card {
   background-color: #00000000;
-  padding: 0px;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 .card-body {
