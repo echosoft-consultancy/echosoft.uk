@@ -186,7 +186,7 @@ export default {
 <style scoped>
 @media screen and (max-width: 767px) {
   h4 {
-      font-size: 1.4rem;
+      font-size: 1.1rem;
   }
 
   p {
