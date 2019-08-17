@@ -2,7 +2,7 @@
   <div>
     <nav-bar />
     <b-container>
-      <b-row class="text-center" v-bind:style="{ marginTop: '55vh' }">
+      <b-row class="text-center logo-block" v-bind:style="{ marginTop: '55vh' }">
         <b-col>
           <h1 class="logo"><a href="mailto:website@echosoft.uk">echosoft</a></h1>
           <h5 class="slogan"><strong>Manufacturing software that is out of this world.</strong></h5>
@@ -32,6 +32,9 @@ export default {
   h5 {
       font-size: 0.9rem;
   }
+  .logo-block{
+    margin-top: 49vh !important;
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poiret One','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
@@ -46,5 +49,8 @@ h1, h2, h3, h4, h5, h6 {
 .slogan {
   color: white;
   opacity: 0.6;
+}
+.logo-block{
+  margin-top: 55vh;
 }
 </style>
