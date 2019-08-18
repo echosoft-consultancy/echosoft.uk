@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="text-left">Experience</h2>
+    <h2 class="experience">Experience</h2>
     <div class="card">
       <h3 class="card-title">Senior Software Engineer, Forgerock</h3>
       <div class="card-body">
@@ -149,6 +149,7 @@ export default {
 <style scoped>
 @media screen and (max-width: 767px) {
   h2 {
+      text-align: center;
       font-size: 1.6rem;
   }
   h3 {
@@ -165,6 +166,12 @@ export default {
     padding-left: 0px;
     padding-right: 0px;
   }
+  h2.experience {
+    text-align: center;
+  }
+}
+.experience {
+  text-align: left;
 }
 
 </style>

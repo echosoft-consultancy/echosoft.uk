@@ -25,4 +25,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style type="scss" scoped>
+@media screen and (max-width: 767px) {
+  h2 {
+    text-align: center;
+  }
+}
 </style>
