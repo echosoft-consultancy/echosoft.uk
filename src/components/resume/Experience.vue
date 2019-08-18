@@ -169,6 +169,19 @@ export default {
   h2.experience {
     text-align: center;
   }
+  ul,li {
+    list-style:none;
+    padding-inline-start: 0px;
+  }
+  li {
+    list-style:none;
+    padding-inline-start: 10px;
+  }
+  li:before {
+    content:'\00b7';
+    font-size: 1.2rem;
+    padding-right: 10px;
+  }
 }
 .experience {
   text-align: left;
