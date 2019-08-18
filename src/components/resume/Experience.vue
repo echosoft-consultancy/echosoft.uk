@@ -157,6 +157,14 @@ export default {
   h5 {
       font-size: 1rem;
   }
+  .card-body {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .card {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 </style>
