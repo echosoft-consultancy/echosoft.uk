@@ -39,7 +39,8 @@ export default {
         controlArrows: true,
         anchors: ['/home', '/about', '/resume'],
         scrollOverflow: true,
-        afterLoad: (origin, destination, direction) => this.$ga.page(destination.anchor)
+        afterLoad: (origin, destination, direction) => this.$ga.page(destination.anchor),
+        scrollBar: false
       }
     }
   }
