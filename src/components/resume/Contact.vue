@@ -4,7 +4,7 @@
       <h2>Ben Jefferies</h2>
       <h5>DevOps Engineer</h5>
       <div>
-        <b-link href="mailto:>benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
+        <b-link href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
         <br>
         <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
         <br>
