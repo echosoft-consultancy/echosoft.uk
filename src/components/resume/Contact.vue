@@ -9,6 +9,8 @@
         <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
         <br>
         <b-link href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</b-link>
+        <br>
+        <b-link href="https://medium.com/@benjjefferies">medium.com/@benjjefferies</b-link>
       </div>
     </div>
 </template>
