@@ -8279,10 +8279,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
 
-vue-analytics@^5.19.0:
-  version "5.19.0"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.19.0.tgz#c959ecae1eaeed66f596a7ebe56d1cd2707a969e"
-  integrity sha512-qKlJwHa6vtjNw8FhOQo9q2a5EgSUPoMb1POcfHmOy6SFXRjY3s9BKC3Q1JLSFITpwXK5PB9d1X/vw/kbxk69vg==
+vue-analytics@^5.19.1:
+  version "5.19.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.19.1.tgz#ee1504328d44b2990bbcf3a191608a73758f39f4"
+  integrity sha512-vNMgKJn85sHw+7Q/iat+yVcUnHLd3sgXiFJvm7+NuyN3Wa+6TQY8G0yK/pUCJFW0bA+3QNAe6tPtUvq8mapG7A==
 
 vue-eslint-parser@^6.0.5:
   version "6.0.5"
