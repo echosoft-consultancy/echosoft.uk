@@ -8262,10 +8262,10 @@ vm-browserify@^1.0.1:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-1.1.0.tgz#bd76d6a23323e2ca8ffa12028dc04559c75f9019"
   integrity sha512-iq+S7vZJE60yejDYM0ek6zg308+UZsdtPExWP9VZoCFCz1zkJoXFnAX7aZfd/ZwrkidzdUZL0C/ryW+JwAiIGw==
 
-vue-analytics@^5.20.2:
-  version "5.20.2"
-  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.20.2.tgz#ace46bda3bf2d872f4099046cb30a7576b6f6951"
-  integrity sha512-57SfeHZYbr3oEVjyBoJCIOhuByfVTqzgoBsBDzGs6CYe2WKANpFWbTuOI5mi98m+9HXiDua0cPTWNIBAcAxysg==
+vue-analytics@^5.21.1:
+  version "5.21.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.21.1.tgz#a430a99aa64076328021e13cea006a8e6dfec416"
+  integrity sha512-xh9uhZ6M/LEdqUpD7V4r92cGMcW3oL+DrSRdsWiiE8MBcag7Ix1Vki45p3mu7vsH+S4qUFnOWok4uj+o3QiWHQ==
 
 vue-eslint-parser@^7.0.0:
   version "7.0.0"
