@@ -13,7 +13,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.2.2",
-    "node-sass": "^4.13.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^7.3.1",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
