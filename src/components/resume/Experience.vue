@@ -4,7 +4,7 @@
     <div class="card">
       <h3 class="card-title">Senior DevOps Engineer, Moneyhub</h3>
       <div class="card-body">
-        <h5>Bristol — February 2020 - current</h5>
+        <h5>Bristol — February 2020 - May 2020</h5>
         <p>
           Moneyhub runs a service to manage your finances. It also offers this
           product as a SaaS for businesses to help employees manage their
@@ -21,19 +21,6 @@
           <li>Bitbucket pipelines</li>
           <li>MongoDB, Redis, Postgres</li>
         </ul>
-      </div>
-      <div>
-        <h3 class="card-title">Senior Software Engineer, ONS</h3>
-        <div class="card-body">
-          <h5>Newport — October 2017 - September 2018</h5>
-          <ul>
-            <li>Python, Java, GoLang</li>
-            <li>Flask, SQLAlchemy, WTForms, Jinja, Spring</li>
-            <li>Concourse, Travis, Codacy, Github</li>
-            <li>Postgres, RabbitMQ, Redis</li>
-            <li>AWS, Docker, Cloudfoundry</li>
-          </ul>
-        </div>
       </div>
     </div>
     <div class="card">
@@ -60,18 +47,18 @@
           <li>ForgeRock stack</li>
         </ul>
       </div>
-      <div>
-        <h3 class="card-title">Senior Software Engineer, ONS</h3>
-        <div class="card-body">
-          <h5>Newport — October 2017 - September 2018</h5>
-          <ul>
-            <li>Python, Java, GoLang</li>
-            <li>Flask, SQLAlchemy, WTForms, Jinja, Spring</li>
-            <li>Concourse, Travis, Codacy, Github</li>
-            <li>Postgres, RabbitMQ, Redis</li>
-            <li>AWS, Docker, Cloudfoundry</li>
-          </ul>
-        </div>
+    </div>
+    <div class="card">
+      <h3 class="card-title">Senior Software Engineer, ONS</h3>
+      <div class="card-body">
+        <h5>Newport — October 2017 - September 2018</h5>
+        <ul>
+          <li>Python, Java, GoLang</li>
+          <li>Flask, SQLAlchemy, WTForms, Jinja, Spring</li>
+          <li>Concourse, Travis, Codacy, Github</li>
+          <li>Postgres, RabbitMQ, Redis</li>
+          <li>AWS, Docker, Cloudfoundry</li>
+        </ul>
       </div>
     </div>
     <div class="card">
@@ -252,8 +239,8 @@
 
 <script>
 export default {
-  name: "Experience"
-};
+  name: 'Experience'
+}
 </script>
 
 <style scoped>
