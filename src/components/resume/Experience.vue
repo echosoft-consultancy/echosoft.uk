@@ -2,6 +2,41 @@
   <div>
     <h2 class="experience">Experience</h2>
     <div class="card">
+      <h3 class="card-title">Senior DevOps Engineer, Moneyhub</h3>
+      <div class="card-body">
+        <h5>Bristol — February 2020 - current</h5>
+        <p>
+          Moneyhub runs a service to manage your finances. It also offers this
+          product as a SaaS for businesses to help employees manage their
+          finances. I led the project to migrate their infrastructure to
+          Kubernetes in AWS (EKS). In migrating I designed the infrastructure
+          and deployment model, putting in best practices such as GitOps to
+          version their resources and terraform, Continuous Deployment and
+          promotion for infrastructure and software releases, GitSecOps to
+          securely manage secrets.
+        </p>
+        <ul>
+          <li>Docker, Kubernetes, AWS, Terraform, Terragrunt, Sops</li>
+          <li>Python, Node</li>
+          <li>Bitbucket pipelines</li>
+          <li>MongoDB, Redis, Postgres</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="card-title">Senior Software Engineer, ONS</h3>
+        <div class="card-body">
+          <h5>Newport — October 2017 - September 2018</h5>
+          <ul>
+            <li>Python, Java, GoLang</li>
+            <li>Flask, SQLAlchemy, WTForms, Jinja, Spring</li>
+            <li>Concourse, Travis, Codacy, Github</li>
+            <li>Postgres, RabbitMQ, Redis</li>
+            <li>AWS, Docker, Cloudfoundry</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="card">
       <h3 class="card-title">Senior Software Engineer, Forgerock</h3>
       <div class="card-body">
         <h5>Bristol — September 2018 - current</h5>
@@ -217,8 +252,8 @@
 
 <script>
 export default {
-  name: 'Experience'
-}
+  name: "Experience"
+};
 </script>
 
 <style scoped>
