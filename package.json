@@ -13,7 +13,7 @@
     "bootstrap": "^4.5.1",
     "bootstrap-vue": "^2.16.0",
     "node-sass": "^4.14.1",
-    "sass-loader": "^9.0.2",
+    "sass-loader": "^9.0.3",
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
     "vue-fullpage.js": "^0.1.5",
