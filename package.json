@@ -17,7 +17,7 @@
     "vue": "^2.6.11",
     "vue-analytics": "^5.22.1",
     "vue-fullpage.js": "^0.1.5",
-    "vue-router": "^3.4.1"
+    "vue-router": "^3.4.2"
   },
   "devDependencies": {
     "@vue/cli-service": "^4.4.6",
