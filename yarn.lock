@@ -4236,10 +4236,10 @@ fstream@^1.0.0, fstream@^1.0.12:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullpage.js@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.8.tgz#4d89a87d36c30c0866c3dfec5e6cb363902f97b2"
-  integrity sha512-r4B/MNuxylgzSlY+w4klD0lYYlmzEy7doDvurupAuO1ObKBgu9EB5GPuoeJTP7t/njFlzAM/Wu/I+FL3WvudCw==
+fullpage.js@^3.0.9:
+  version "3.0.9"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.9.tgz#fc7dba41d521f020a51e9c00fb0fee0d2e11d552"
+  integrity sha512-CBJZwOkOjX/RToG0L93LwJW4a+/67+AqGEvEagWh1N5KRgDXEOVKlo/TJzCzSI1LsOulb7yqXE8mOzRZzqeYMA==
 
 function-bind@^1.1.1:
   version "1.1.1"
@@ -9433,12 +9433,12 @@ vue-eslint-parser@^7.0.0:
     esquery "^1.0.1"
     lodash "^4.17.15"
 
-vue-fullpage.js@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/vue-fullpage.js/-/vue-fullpage.js-0.1.5.tgz#967c1602556d3f2f0c27468e73198f63c07056e9"
-  integrity sha512-/8aFieeTxzwnq6Tb30fUwL5/TN1PBYK+qE4kb0mYi1JSDVWnYmnsMvCzGqLJv3SQCrt1GYccfs6dFA0rIVNejg==
+vue-fullpage.js@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/vue-fullpage.js/-/vue-fullpage.js-0.1.6.tgz#ffae659a4e50a05398d653c072340d6d5d890979"
+  integrity sha512-23HCTb6alcLqtEQ4ymMjVrJPI2GZTnCOh3zx60318lIL8WvQWkIkogIyDrEj3OrgcRLwwww9iik6mfF//HO6rA==
   dependencies:
-    fullpage.js "^3.0.8"
+    fullpage.js "^3.0.9"
 
 vue-functional-data-merge@^3.1.0:
   version "3.1.0"
