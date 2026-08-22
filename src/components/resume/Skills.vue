@@ -23,102 +23,49 @@
 
 <script>
 export default {
+  name: 'Skills',
   data () {
     return {
       skills: {
-        Java: [
+        Languages: [
           {
-            name: 'Java',
+            name: 'TypeScript',
             percentage: 95
           },
-          {
-            name: 'Spring Boot',
-            percentage: 80
-          },
-          {
-            name: 'Spring Framework',
-            percentage: 90
-          },
-          {
-            name: 'Spark Java',
-            percentage: 85
-          },
-          {
-            name: 'Junit 4',
-            percentage: 95
-          },
-          {
-            name: 'Mockito',
-            percentage: 95
-          }
-        ],
-        Python: [
           {
             name: 'Python',
             percentage: 90
           },
           {
-            name: 'Flask',
+            name: 'Java/Kotlin',
             percentage: 90
           },
           {
-            name: 'SQL Alchemy',
-            percentage: 85
-          },
-          {
-            name: 'Django',
+            name: 'Go',
             percentage: 75
           },
           {
-            name: 'pytest',
+            name: 'HTML',
             percentage: 90
           },
           {
-            name: 'Jinja',
+            name: 'CSS',
             percentage: 90
           }
         ],
-        Web: [
+        DevOps: [
           {
-            name: 'React',
-            percentage: 80
-          },
-          {
-            name: 'VueJS',
-            percentage: 75
-          },
-          {
-            name: 'Bootstrap',
-            percentage: 85
-          },
-          {
-            name: 'Angular',
-            percentage: 70
-          },
-          {
-            name: 'REST',
+            name: 'AWS',
             percentage: 95
-          }
-        ],
-        Database: [
+          },
           {
-            name: 'Postgres',
+            name: 'GCP',
             percentage: 90
           },
           {
-            name: 'MongoDB',
-            percentage: 80
+            name: 'Terraform',
+            percentage: 95
           },
-          {
-            name: 'DynamoDB',
-            percentage: 85
-          },
-          {
-            name: 'ElasticSearch',
-            percentage: 85
-          }
-        ],
-        Devops: [
           {
             name: 'Kubernetes',
             percentage: 90
@@ -128,60 +75,112 @@ export default {
             percentage: 90
           },
           {
-            name: 'Concourse',
-            percentage: 90
+            name: 'CI/CD',
+            percentage: 95
           },
           {
-            name: 'Travis',
-            percentage: 90
+            name: 'Serverless',
+            percentage: 85
           },
           {
-            name: 'Jenkins',
-            percentage: 80
-          },
-          {
-            name: 'Ansible',
-            percentage: 80
-          },
-          {
-            name: 'Terraform',
+            name: 'SOPS',
             percentage: 85
           }
         ],
-        Cloud: [
+        'Web/Mobile': [
           {
-            name: 'AWS',
+            name: 'React',
             percentage: 90
           },
           {
-            name: 'GCP',
+            name: 'React Native',
             percentage: 85
           },
           {
-            name: 'Digital Ocean',
-            percentage: 75
+            name: 'Expo',
+            percentage: 85
+          },
+          {
+            name: 'Next.js',
+            percentage: 80
+          },
+          {
+            name: 'Vue',
+            percentage: 80
+          },
+          {
+            name: 'Express',
+            percentage: 85
+          },
+          {
+            name: 'Django',
+            percentage: 80
+          },
+          {
+            name: 'Flask',
+            percentage: 85
+          },
+          {
+            name: 'Spring Boot',
+            percentage: 85
           }
         ],
-        'Big Data': [
+        Testing: [
           {
-            name: 'Hadoop',
+            name: 'Jest',
             percentage: 85
           },
           {
-            name: 'Hive',
-            percentage: 75
+            name: 'pytest',
+            percentage: 90
           },
           {
-            name: 'Pig',
-            percentage: 65
+            name: 'Playwright',
+            percentage: 80
           },
           {
-            name: 'Spark',
-            percentage: 75
+            name: 'JUnit',
+            percentage: 90
+          }
+        ],
+        'Database/Messaging': [
+          {
+            name: 'Postgres',
+            percentage: 90
           },
           {
-            name: 'NiFi',
+            name: 'MongoDB',
             percentage: 85
+          },
+          {
+            name: 'DynamoDB',
+            percentage: 85
+          },
+          {
+            name: 'InfluxDB',
+            percentage: 75
+          },
+          {
+            name: 'BigQuery',
+            percentage: 80
+          },
+          {
+            name: 'Elasticsearch',
+            percentage: 85
+          }
+        ],
+        SaaS: [
+          {
+            name: 'Auth0',
+            percentage: 85
+          },
+          {
+            name: 'Sentry',
+            percentage: 80
+          },
+          {
+            name: 'Datadog',
+            percentage: 80
           }
         ]
       }
