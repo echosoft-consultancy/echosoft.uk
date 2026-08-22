@@ -8,6 +8,8 @@
       <b-col cols="8" class="centering">
         <about />
         <experience />
+        <projects />
+        <references />
       </b-col>
     </b-row>
   </b-container>
@@ -17,6 +19,8 @@
 import Contact from './resume/Contact'
 import Experience from './resume/Experience'
 import Skills from './resume/Skills'
+import Projects from './resume/Projects'
+import References from './resume/References'
 import About from './About'
 export default {
   name: 'Resume',
@@ -24,6 +28,8 @@ export default {
     Contact,
     Experience,
     Skills,
+    Projects,
+    References,
     About
   }
 }
