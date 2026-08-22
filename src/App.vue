@@ -1,25 +1,7 @@
 <template>
   <div>
     <full-page id="fullpage" :options="options" ref="fullpage">
-      <div class="section hero-section">
-        <picture class="hero-bg">
-          <source
-            type="image/webp"
-            :srcset="heroWebpSmall + ' 1280w, ' + heroWebp + ' 1920w'"
-            sizes="100vw"
-          >
-          <img
-            class="hero-bg-img"
-            :src="heroJpg"
-            :srcset="heroJpgSmall + ' 1280w, ' + heroJpg + ' 1920w'"
-            sizes="100vw"
-            width="1920"
-            height="1080"
-            alt=""
-            fetchpriority="high"
-            decoding="async"
-          >
-        </picture>
+      <div class="section hero-section" :style="heroVars">
         <home />
       </div>
       <div class="section resume-section">
@@ -31,8 +13,13 @@
 </template>
 
 <script>
+import { pageview } from 'vue-gtag'
 import Home from './components/Home.vue'
 import Resume from './components/Resume.vue'
+import heroJpg from './assets/images/galaxy.jpg'
+import heroJpgSmall from './assets/images/galaxy-1280.jpg'
+import heroWebp from './assets/images/galaxy.webp'
+import heroWebpSmall from './assets/images/galaxy-1280.webp'
 
 export default {
   name: 'Echosoft',
@@ -42,15 +29,23 @@ export default {
   },
   data: function () {
     return {
-      heroJpg: require('./assets/images/galaxy.jpg'),
-      heroJpgSmall: require('./assets/images/galaxy-1280.jpg'),
-      heroWebp: require('./assets/images/galaxy.webp'),
-      heroWebpSmall: require('./assets/images/galaxy-1280.webp'),
+      heroVars: {
+        '--hero-jpg': 'url(' + heroJpg + ')',
+        '--hero-jpg-small': 'url(' + heroJpgSmall + ')',
+        '--hero-webp': 'url(' + heroWebp + ')',
+        '--hero-webp-small': 'url(' + heroWebpSmall + ')'
+      },
       options: {
+        licenseKey: 'gplv3-license',
         controlArrows: true,
+        verticalCentered: false,
         anchors: ['/home', '/about', '/resume'],
         scrollOverflow: true,
-        afterLoad: (origin, destination, direction) => this.$ga.page(destination.anchor),
+        afterLoad: (origin, destination) => {
+          if (destination && destination.anchor) {
+            pageview(destination.anchor)
+          }
+        },
         scrollBar: false
       }
     }
@@ -59,7 +54,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'assets/css/print.css';
+@import './assets/css/print.css';
 
 html, body {
   font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;
@@ -88,28 +83,42 @@ p {
 }
 
 .hero-section {
-  position: relative;
   background-color: #0b1220;
+  background-image: image-set(
+    var(--hero-webp-small) type('image/webp'),
+    var(--hero-jpg-small)
+  );
+  background-size: cover;
+  background-position: center;
 }
 
-.hero-bg,
-.hero-bg-img {
+.hero-section.fp-table {
+  justify-content: flex-start !important;
+}
+
+.hero-section .fp-overflow {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100%;
+  max-height: none !important;
+}
+
+.hero-section .navbar {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  z-index: 2;
 }
 
-.hero-bg-img {
-  object-fit: cover;
-  object-position: center;
-  pointer-events: none;
-}
-
-.hero-section > *:not(.hero-bg) {
-  position: relative;
-  z-index: 1;
+@media (min-width: 1280px) {
+  .hero-section {
+    background-image: image-set(
+      var(--hero-webp) type('image/webp'),
+      var(--hero-jpg)
+    );
+  }
 }
 
 .resume-section {

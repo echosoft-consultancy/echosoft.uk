@@ -213,7 +213,7 @@ export default {
 .experience {
   text-align: left;
 }
-.card-body >>> a {
+.card-body :deep(a) {
   color: #28364f;
 }
 </style>

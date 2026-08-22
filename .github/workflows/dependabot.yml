@@ -19,8 +19,15 @@ permissions:
 jobs:
   auto-merge:
     name: Auto merge
+<<<<<<< HEAD
     if: github.event.pull_request.user.login == 'dependabot[bot]'
+=======
+    if: github.actor == 'dependabot[bot]'
+>>>>>>> 0820f72 (chore: pin Netlify to Node 22 and skip Dependabot auto-merge on app PRs)
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
     steps:
       - name: Enable auto-merge
         run: gh pr merge --auto --squash "$PR_URL"
