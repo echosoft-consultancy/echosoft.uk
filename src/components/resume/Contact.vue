@@ -1,16 +1,27 @@
 <template>
     <div class="text-center">
-      <img class="profile-pic" src="../../assets/images/bio.jpg" />
+      <picture>
+        <source type="image/webp" srcset="../../assets/images/bio.webp">
+        <img
+          class="profile-pic"
+          src="../../assets/images/bio.jpg"
+          alt="Ben Jefferies"
+          width="640"
+          height="640"
+          loading="lazy"
+          decoding="async"
+        >
+      </picture>
       <h2>Ben Jefferies</h2>
       <h5>DevOps Engineer</h5>
       <div>
-        <b-link href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
+        <a href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</a>
         <br>
-        <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
+        <a href="https://github.com/benjefferies">github.com/benjefferies</a>
         <br>
-        <b-link href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</b-link>
+        <a href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</a>
         <br>
-        <b-link href="https://medium.com/@benjjefferies">medium.com/@benjjefferies</b-link>
+        <a href="https://medium.com/@benjjefferies">medium.com/@benjjefferies</a>
       </div>
     </div>
 </template>

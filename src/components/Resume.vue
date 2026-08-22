@@ -1,16 +1,16 @@
 <template>
-  <b-container class="resume">
-    <b-row class="overflow-auto">
-      <b-col cols="4" class="centering left-bar">
+  <div class="container resume">
+    <div class="row overflow-auto">
+      <div class="col-4 centering left-bar">
           <contact />
           <skills />
-      </b-col>
-      <b-col cols="8" class="centering">
+      </div>
+      <div class="col-8 centering">
         <about />
         <experience />
-      </b-col>
-    </b-row>
-  </b-container>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
