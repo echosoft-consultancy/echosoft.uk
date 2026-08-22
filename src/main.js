@@ -1,23 +1,14 @@
-import Vue from 'vue'
-import App from './App'
+import { createApp } from 'vue'
+import { configure } from 'vue-gtag'
 import VueFullPage from 'vue-fullpage.js'
-import 'fullpage.js/vendors/scrolloverflow'
+import App from './App.vue'
+import 'vue-fullpage.js/dist/style.css'
 import './assets/css/custom.scss'
-import VueAnalytics from 'vue-analytics'
 
-Vue.use(VueFullPage)
-Vue.use(VueAnalytics, {
-  id: 'UA-144541124-1',
-  autoTracking: {
-    screenview: true,
-    untracked: false
-  }
+configure({
+  tagId: 'UA-144541124-1'
 })
 
-Vue.config.productionTip = false
-
-/* eslint-disable no-new */
-new Vue({
-  el: '#app',
-  render: h => h(App)
-})
+const app = createApp(App)
+app.use(VueFullPage)
+app.mount('#app')

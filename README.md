@@ -2,8 +2,8 @@
 
 Echosoft Consultancy company site - https://echosoft.uk
 
-Built using vue.
-Hosted by netlify
+Built using Vue 3 and Vite.
+Hosted by Netlify.
 
 ## Build Setup
 
@@ -11,14 +11,12 @@ Hosted by netlify
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:5173
 npm run dev
 
-# build for production with minification
+# build for production
 npm run build
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# preview the production build
+npm run preview
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

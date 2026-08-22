@@ -31,8 +31,13 @@
 </template>
 
 <script>
+import { pageview } from 'vue-gtag'
 import Home from './components/Home.vue'
 import Resume from './components/Resume.vue'
+import heroJpg from './assets/images/galaxy.jpg'
+import heroJpgSmall from './assets/images/galaxy-1280.jpg'
+import heroWebp from './assets/images/galaxy.webp'
+import heroWebpSmall from './assets/images/galaxy-1280.webp'
 
 export default {
   name: 'Echosoft',
@@ -42,15 +47,20 @@ export default {
   },
   data: function () {
     return {
-      heroJpg: require('./assets/images/galaxy.jpg'),
-      heroJpgSmall: require('./assets/images/galaxy-1280.jpg'),
-      heroWebp: require('./assets/images/galaxy.webp'),
-      heroWebpSmall: require('./assets/images/galaxy-1280.webp'),
+      heroJpg,
+      heroJpgSmall,
+      heroWebp,
+      heroWebpSmall,
       options: {
+        licenseKey: 'gplv3-license',
         controlArrows: true,
         anchors: ['/home', '/about', '/resume'],
         scrollOverflow: true,
-        afterLoad: (origin, destination, direction) => this.$ga.page(destination.anchor),
+        afterLoad: (origin, destination) => {
+          if (destination && destination.anchor) {
+            pageview(destination.anchor)
+          }
+        },
         scrollBar: false
       }
     }
@@ -59,7 +69,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import 'assets/css/print.css';
+@import './assets/css/print.css';
 
 html, body {
   font-family: 'Darker Grotesque','Helvetica Neue', Helvetica, Arial, sans-serif, cursive !important;

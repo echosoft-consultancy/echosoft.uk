@@ -1,5 +1,8 @@
-const fs = require('fs')
-const path = require('path')
+import fs from 'node:fs'
+import path from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const dirname = path.dirname(fileURLToPath(import.meta.url))
 
 function assertMaxBytes (filePath, maxBytes) {
   const size = fs.statSync(filePath).size
@@ -9,7 +12,7 @@ function assertMaxBytes (filePath, maxBytes) {
 }
 
 // given the optimized image assets
-const images = path.join(__dirname, '../src/assets/images')
+const images = path.join(dirname, '../src/assets/images')
 
 // when we inspect their file sizes
 const bioJpg = path.join(images, 'bio.jpg')
