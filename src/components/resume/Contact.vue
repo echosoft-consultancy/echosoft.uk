@@ -2,15 +2,18 @@
     <div class="text-center">
       <img class="profile-pic" src="../../assets/images/bio.jpg" />
       <h2>Ben Jefferies</h2>
-      <h5>DevOps Engineer</h5>
+      <h5>Software/DevOps Engineer</h5>
       <div>
+        <p class="location">Bristol</p>
+        <b-link href="tel:+447850445146">+44 7850 445146</b-link>
+        <br>
         <b-link href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
         <br>
         <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
         <br>
-        <b-link href="https://www.linkedin.com/in/ben-jefferies-0bb1b24b/">linkedin.com/ben-jefferies</b-link>
+        <b-link href="https://www.linkedin.com/in/benjjefferies">linkedin.com/in/benjjefferies</b-link>
         <br>
-        <b-link href="https://medium.com/@benjjefferies">medium.com/@benjjefferies</b-link>
+        <b-link href="https://echosoft.uk">echosoft.uk</b-link>
       </div>
     </div>
 </template>
@@ -67,5 +70,8 @@ a:active {
 }
 .card {
   background-color: #00000000;
+}
+.location {
+  margin-bottom: 0.25rem;
 }
 </style>
