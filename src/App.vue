@@ -38,6 +38,7 @@ export default {
       options: {
         licenseKey: 'gplv3-license',
         controlArrows: true,
+        verticalCentered: false,
         anchors: ['/home', '/about', '/resume'],
         scrollOverflow: true,
         afterLoad: (origin, destination) => {
@@ -89,6 +90,26 @@ p {
   );
   background-size: cover;
   background-position: center;
+}
+
+.hero-section.fp-table {
+  justify-content: flex-start !important;
+}
+
+.hero-section .fp-overflow {
+  flex: 1 1 auto;
+  width: 100%;
+  height: 100% !important;
+  min-height: 100%;
+  max-height: none !important;
+}
+
+.hero-section .navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 @media (min-width: 1280px) {
