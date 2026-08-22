@@ -1,8 +1,8 @@
 <template>
   <div>
-    <b-navbar class="navbar" toggleable="lg" type="dark" variant="dark">
-      <b-navbar-brand href="#" class="brand">echosoft</b-navbar-brand>
-    </b-navbar>
+    <nav class="navbar navbar-dark">
+      <a href="#" class="navbar-brand brand">echosoft</a>
+    </nav>
   </div>
 </template>
 

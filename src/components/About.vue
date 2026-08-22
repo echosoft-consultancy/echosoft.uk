@@ -1,16 +1,16 @@
 <template>
-  <b-container class="about">
-    <b-row>
-      <b-col>
+  <div class="container about">
+    <div class="row">
+      <div class="col-12">
          <h2>About Me</h2>
-      </b-col>
-    </b-row>
-    <b-row>
-      <b-col>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
          <p>Highly effective professional, excelling in the fusion of software engineering and DevOps principles. Demonstrates exceptional proficiency in unifying development and operations teams, enhancing process efficiency, and promoting teamwork. Renowned for excellent communication skills, significantly boosting team productivity and delivery performance. Deeply committed to spearheading innovation and creating significant, lasting solutions.</p>
-      </b-col>
-    </b-row>
-  </b-container>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

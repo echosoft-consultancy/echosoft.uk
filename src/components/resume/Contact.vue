@@ -1,19 +1,30 @@
 <template>
     <div class="text-center">
-      <img class="profile-pic" src="../../assets/images/bio.jpg" />
+      <picture>
+        <source type="image/webp" srcset="../../assets/images/bio.webp">
+        <img
+          class="profile-pic"
+          src="../../assets/images/bio.jpg"
+          alt="Ben Jefferies"
+          width="640"
+          height="640"
+          loading="lazy"
+          decoding="async"
+        >
+      </picture>
       <h2>Ben Jefferies</h2>
       <h5>Software/DevOps Engineer</h5>
       <div>
         <p class="location">Bristol</p>
-        <b-link href="tel:+447850445146">+44 7850 445146</b-link>
+        <a href="tel:+447850445146">+44 7850 445146</a>
         <br>
-        <b-link href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</b-link>
+        <a href="mailto:benjefferies@echosoft.uk">benjefferies@echosoft.uk</a>
         <br>
-        <b-link href="https://github.com/benjefferies">github.com/benjefferies</b-link>
+        <a href="https://github.com/benjefferies">github.com/benjefferies</a>
         <br>
-        <b-link href="https://www.linkedin.com/in/benjjefferies">linkedin.com/in/benjjefferies</b-link>
+        <a href="https://www.linkedin.com/in/benjjefferies">linkedin.com/in/benjjefferies</a>
         <br>
-        <b-link href="https://echosoft.uk">echosoft.uk</b-link>
+        <a href="https://echosoft.uk">echosoft.uk</a>
       </div>
     </div>
 </template>

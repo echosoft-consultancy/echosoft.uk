@@ -2,12 +2,21 @@
   <div>
     <div class="card" v-bind:key="name" v-for="(skill, name) in skills">
       <h4 class="card-title text-center">{{ name }}</h4>
-      <b-row class="card-body">
-        <b-col cols="12" v-bind:key="item.name" v-for="item in skill">
+      <div class="row card-body">
+        <div class="col-12" v-bind:key="item.name" v-for="item in skill">
           <p>{{ item.name }}</p>
-          <b-progress :value="item.percentage" :max="100"></b-progress>
-        </b-col>
-      </b-row>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              :style="{ width: item.percentage + '%' }"
+              :aria-valuenow="item.percentage"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
